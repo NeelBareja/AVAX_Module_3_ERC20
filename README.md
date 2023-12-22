@@ -24,7 +24,7 @@ OpenZeppelin Contracts version ^4.9.2
 
 To use the Buzzinga token in your project, you need to install the required dependencies. Run the following command:
 
-'npm install @openzeppelin/contracts@4.9.2'
+`npm install @openzeppelin/contracts@4.9.2`
 
 ## Deployment
 The Buzzinga token can be deployed to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat. Before deploying, make sure to adjust the constructor parameters and other configurations as needed.
@@ -34,9 +34,9 @@ The Buzzinga token can be deployed to the Ethereum blockchain using tools like R
 
 The Buzzinga token allows the owner to mint new tokens. To mint tokens, call the mint function with the recipient's address and the desired amount.
 
-'function mint(address to, uint256 amount) public onlyOwner {
+`function mint(address to, uint256 amount) public onlyOwner {
     _mint(to, amount);
-}'
+}`
 
 ## Burning
 The Buzzinga token supports burning of tokens. The standard ERC20 burn function is inherited from the OpenZeppelin library.
